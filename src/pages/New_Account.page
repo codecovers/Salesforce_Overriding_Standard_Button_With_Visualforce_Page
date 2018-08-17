@@ -1,7 +1,7 @@
-<apex:page showHeader="true" sidebar="false" standardController="Account" lightningStylesheets="true" extensions="NewAccountController">
+<apex:page showHeader="true" sidebar="false" standardController="Account" lightningStylesheets="true" extensions="AccountOverrideController">
     <apex:form >
         <apex:pageBlock title="Account Detail">
-            <apex:pageMessages/>
+            <apex:pageMessages />
             <apex:pageBlockButtons style="text-align: right">
                 <apex:commandButton value="Save" action="{!save}"/>
             </apex:pageBlockButtons>
