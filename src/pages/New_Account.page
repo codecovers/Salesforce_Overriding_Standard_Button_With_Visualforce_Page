@@ -1,11 +1,21 @@
-<apex:page showHeader="true" sidebar="false" standardController="Account">
+<apex:page showHeader="true" sidebar="false" standardController="Account" lightningStylesheets="true">
     <apex:form >
         <apex:pageBlock title="Account Detail">
             <apex:pageBlockButtons >
                 <apex:commandButton value="Save" action="{!save}"/>
             </apex:pageBlockButtons>
-            <apex:pageBlockSection columns="2" collapsible="false">
+            <apex:pageBlockSection title="Account Informations" columns="2" collapsible="false">
                 <apex:inputField value="{!account.Name}"/>
+                <apex:inputField value="{!account.Phone}"/>
+                <apex:inputField value="{!account.Industry}"/>
+                <apex:inputField value="{!account.Broker__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Contact Address" columns="2" collapsible="false">
+                <apex:inputField value="{!account.Address__c}"/>
+                <apex:inputField value="{!account.Street__c}"/>
+                <apex:inputField value="{!account.State_Province__c}"/>
+                <apex:inputField value="{!account.Country__c}"/>
+                <apex:inputField value="{!account.Postcode__c}"/>
             </apex:pageBlockSection>
         </apex:pageBlock>
     </apex:form>
