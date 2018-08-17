@@ -1,3 +1,12 @@
-<apex:page showHeader="true" sidebar="true">
-	
+<apex:page showHeader="true" sidebar="false" standardController="Account">
+    <apex:form >
+        <apex:pageBlock title="Account Detail">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!save}"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="2" collapsible="false">
+                <apex:inputField value="{!account.Name}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
 </apex:page>

@@ -3,7 +3,7 @@
     <apiVersion>36.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>New_Account</label>
+    <label>new_account</label>
     <packageVersions>
         <majorNumber>2</majorNumber>
         <minorNumber>277</minorNumber>
