@@ -1,0 +1,17 @@
+{
+    "projectName": "Salesforce - Overriding Standard Button With Visualforce Page",
+    "username": "man@cloudindustry.com.au",
+    "id": "915c1e40-a1eb-11e8-891a-836bb998ddc7",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://dlights-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\Dell\\Documents\\SFDC Workspaces",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
